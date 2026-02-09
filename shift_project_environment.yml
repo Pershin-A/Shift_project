@@ -7,19 +7,21 @@ channels:
 dependencies:
   - python=3.9
 
-  # jupyter stack
+  # jupyter
   - ipython
   - jupyter
   - jupyterlab
   - ipykernel
   - nest-asyncio
 
-  # core scientific stack (без жестких старых пинов)
+  # core scientific stack
   - numpy
   - pandas
   - scipy
   - scikit-learn
   - statsmodels
+
+  # visualization
   - matplotlib
   - seaborn
   - plotly
@@ -30,12 +32,17 @@ dependencies:
   - nltk
   - regex
 
-  # db
+  # database
   - sqlalchemy
   - psycopg2
 
-  # ML libs которые ты хочешь
+  # ML
   - catboost
+  - lightgbm
+  - xgboost
   - shap
+
+  # utils
+  - tqdm
 
   - pip
